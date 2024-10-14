@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-blueberry-dev-164033-authRole",
+      "UnauthRoleArn": "arn:aws:iam::727517469111:role/amplify-blueberry-dev-164033-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::727517469111:role/amplify-blueberry-dev-164033-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-blueberry-dev-164033-deployment",
+      "UnauthRoleName": "amplify-blueberry-dev-164033-unauthRole",
+      "StackName": "amplify-blueberry-dev-164033",
+      "StackId": "arn:aws:cloudformation:eu-west-2:727517469111:stack/amplify-blueberry-dev-164033/5f4ed880-9ea4-11eb-8794-06441cd22df0",
+      "AmplifyAppId": "djji1x5yjl1w7"
+    }
+  }
+}

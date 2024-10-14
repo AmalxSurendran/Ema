@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>786650255347-m57hmp2qot3fkb1l9b7mehp9pktck23f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.786650255347-m57hmp2qot3fkb1l9b7mehp9pktck23f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>786650255347-cfcg5nj8fjro2jsrb40l3upm5rr3hdo9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC4vOVVVz-w0SHNySwpKgkAhgJbtvZjDak</string>
+	<key>GCM_SENDER_ID</key>
+	<string>786650255347</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.parallelreality.ema</string>
+	<key>PROJECT_ID</key>
+	<string>emaapp-cac83</string>
+	<key>STORAGE_BUCKET</key>
+	<string>emaapp-cac83.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:786650255347:ios:1dfe021a9326b4475d4c86</string>
+	<key>DATABASE_URL</key>
+	<string>https://emaapp-cac83.firebaseio.com</string>
+</dict>
+</plist>

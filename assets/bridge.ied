@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "createdOn": "2022-11-17T15:57:17.691Z",
+        "version": "1.0.0",
+        "exType": "rep"
+    },
+    "calibConfig": {
+        "entryNode": 9,
+        "passClass": 1,
+        "failClass": -2,
+        "calibText": "Follow this",
+        "orientation": "sleeping",
+        "poi1": {
+            "startX": 0.05,
+            "endX": 0.2,
+            "startY": 0.4,
+            "endY": 1,
+            "name": "head",
+            "landmark": "(0)"
+        },
+        "poi2": {
+            "startX": 0.8,
+            "endX": 0.95,
+            "startY": 0.4,
+            "endY": 1,
+            "name": "feet",
+            "landmark": "(27)"
+        }
+    },
+    "nodes": [
+        {
+            "nextNode": 4,
+            "typ": "input"
+        },
+        {
+            "result": 1,
+            "typ": "result"
+        },
+        {
+            "result": 2,
+            "typ": "result"
+        },
+        {
+            "result": -1,
+            "typ": "result"
+        },
+        {
+            "passNode": 5,
+            "failNode": 7,
+            "decisionMode": "monopass",
+            "conditions": [
+                "(24):(26):(28)/25:80"
+            ],
+            "typ": "decision"
+        },
+        {
+            "passNode": 1,
+            "failNode": 6,
+            "decisionMode": "monopass",
+            "conditions": [
+                "(12):(24):(26)/105:130"
+            ],
+            "typ": "decision"
+        },
+        {
+            "passNode": 2,
+            "failNode": 3,
+            "decisionMode": "monopass",
+            "conditions": [
+                "(12):(24):(26)/160:180"
+            ],
+            "typ": "decision"
+        },
+        {
+            "result": -2,
+            "typ": "result"
+        },
+        {
+            "passNode": 1,
+            "failNode": 7,
+            "decisionMode": "majority",
+            "conditions": [
+                "(24):(26):(28)/25:80"
+            ],
+            "typ": "decision"
+        },
+        {
+            "nextNode": 8,
+            "typ": "input"
+        }
+    ],
+    "engineConfig": {
+        "entryNode": 0,
+        "windowSize": 5,
+        "acceptedClasses": [
+            1,
+            2
+        ],
+        "resetClass": -2,
+        "repSequence": [
+            [
+                1,
+                2,
+                1
+            ]
+        ]
+    }
+}

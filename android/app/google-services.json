@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "786650255347",
+    "firebase_url": "https://emaapp-cac83.firebaseio.com",
+    "project_id": "emaapp-cac83",
+    "storage_bucket": "emaapp-cac83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786650255347:android:0a156d20fb2dddc55d4c86",
+        "android_client_info": {
+          "package_name": "com.parallelreality.ema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786650255347-gh1lnlf0v40phtronssjasost2fjenlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parallelreality.ema",
+            "certificate_hash": "fb7769d12db211506049f925e0ce3fae2a24fd69"
+          }
+        },
+        {
+          "client_id": "786650255347-v405pv854pgtsd3hl1ru6hsdjbpv36ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZNTe8h2kfPhnRc9Gw4PP9BztNxohyAK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786650255347-hrcqelg3q3lq7i1tfnvjk8lhntqa1v77.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786650255347-66kb3bqe6stcaeo1m7ucph4g8e51rk4m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ema.ios",
+                "app_store_id": "1548182152"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
